@@ -19,6 +19,7 @@ mapboxgl.accessToken =
 
 function errorLocation() {
   setupMap([-121.90207577343561, 37.45077570472731]);
+  console.log("...................errorLocation executed.")
 }
 
 errorLocation();
