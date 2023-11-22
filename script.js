@@ -18,12 +18,12 @@ function saveUserLocation(position) {
 mapboxgl.accessToken =
   "pk.eyJ1IjoiY29jb2F6aSIsImEiOiJjbGY4cDJ6YWkwZzhwM3JrZWllMmx5c25tIn0.fBrjOWDc1zF7ynW9nKa-jw";
 
-function errorLocation() {
-  setupMap([-121.90207577343561, 37.45077570472731]);
-  console.log("...................errorLocation executed.")
-}
+// function errorLocation() {
+//   setupMap([-121.90207577343561, 37.45077570472731]);
+//   console.log("...................errorLocation executed.")
+// }
 
-errorLocation();
+// errorLocation();
 function setupMap(coord) {
   const map = new mapboxgl.Map({
     container: "map",
