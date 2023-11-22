@@ -22,5 +22,5 @@ function error(err) {
 }
 function getLocation(){
  console.log("inside getLocation");
-  navigator.geolocation.getCurrentPosition(coord=success, error, options);
+  navigator.geolocation.watchPosition(coord=success, error, options);
 }

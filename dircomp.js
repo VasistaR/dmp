@@ -1,3 +1,4 @@
+import "location_script.js"
 (function (f) {
   if (typeof exports === "object" && typeof module !== "undefined") {
     module.exports = f();

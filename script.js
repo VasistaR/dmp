@@ -22,8 +22,8 @@ function errorLocation() {
 }
 
 errorLocation();
-
-function setupMap(coord) {
+//function setupMap(coord)
+function setupMap() {
   const map = new mapboxgl.Map({
     container: "map",
     style: 'mapbox://styles/mapbox/streets-v11',
