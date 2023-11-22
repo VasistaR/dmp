@@ -12,6 +12,7 @@ function getUserLocation() {
 // trying to save user loc
 function saveUserLocation(position) {
   coord = [position.coords.latitude, position.coords.longitude];
+  console.log(coord);
   setupMap();
 }
 mapboxgl.accessToken =
