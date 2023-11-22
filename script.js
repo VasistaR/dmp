@@ -11,7 +11,7 @@ function getUserLocation() {
 
 // trying to save user loc
 function saveUserLocation(position) {
-  coord = [position.coords.longitude, position.coords.latitude];
+  coord = [position.coords.latitude, position.coords.longitude];
   setupMap();
 }
 mapboxgl.accessToken =
@@ -23,8 +23,7 @@ function errorLocation() {
 }
 
 errorLocation();
-//function setupMap(coord)
-function setupMap() {
+function setupMap(coord) {
   const map = new mapboxgl.Map({
     container: "map",
     style: 'mapbox://styles/mapbox/streets-v11',
